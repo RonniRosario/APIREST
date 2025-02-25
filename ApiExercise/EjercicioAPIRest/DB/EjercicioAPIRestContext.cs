@@ -12,6 +12,6 @@ namespace EjercicioAPIRest.DB
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
-
+        public DbSet<RefreshTokens> RefreshToken { get; set; }
     }
 }
