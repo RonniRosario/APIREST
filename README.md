@@ -28,3 +28,17 @@ En este caso, editamos el usuario con el id 10.
 
 Por último, tenemos la funcionalidad de Eliminar un usuario, simplemente introducimos el id del usuario que queramos eliminar, utilizaremos el mismo id 10. 
 ![image](https://github.com/user-attachments/assets/bbd1b352-e875-426e-bc6c-edaf3eecc9e6)
+
+Ahora haremos las pruebas de autenticacion,
+Para esto, corremos el proyecto
+
+![image](https://github.com/user-attachments/assets/5b344589-c251-40a6-99b3-2269d4d09db4)
+
+Podemos hacerlo registrando un usuario y luego autenticarlo, para esto primero usamos el endpoint de registrar 
+![image](https://github.com/user-attachments/assets/6c238b14-e997-4ea8-a5a4-4a376a81acf7)
+
+Ahora podemos proseguir a usar el endpoint de login
+![image](https://github.com/user-attachments/assets/e4d0c45a-132b-4394-9aac-970d0f05ab8c)
+
+Ya con el token proporcionado, podemos acceder a los metodos que necesitan de autenticacion
+![image](https://github.com/user-attachments/assets/5d5d6d9b-7f10-4869-a065-74ff622298cf)
