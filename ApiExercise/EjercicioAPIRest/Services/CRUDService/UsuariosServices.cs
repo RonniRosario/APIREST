@@ -1,22 +1,23 @@
-﻿using Azure.Messaging;
+﻿
 using EjercicioAPIRest.AppValidations;
 using EjercicioAPIRest.DB;
 using EjercicioAPIRest.Models;
-using Microsoft.AspNetCore.Http.HttpResults;
+
 using Microsoft.AspNetCore.Mvc;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace EjercicioAPIRest.Services.UsuariosServices
 {
-    public class UsuarioServices : IUsuarioServices
+    public class UsuariosServices : ICrudServices<Usuario>
     {
         private readonly EjercicioAPIRestContext _context;
-        public UsuarioServices(EjercicioAPIRestContext context)
+        public UsuariosServices(EjercicioAPIRestContext context)
         {
             _context = context;
         }
 
-        public async Task<ActionResult> CreateUser(Usuario user)
+        public async Task<ActionResult> Create(Usuario user)
         {
             try
             {
@@ -40,7 +41,7 @@ namespace EjercicioAPIRest.Services.UsuariosServices
 
         }
 
-        public async Task<IActionResult> DeleteUser(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             var userFound = await _context.Usuarios.FindAsync(id);
             if (userFound == null) { return new  NotFoundObjectResult("No se encontro el usuario"); }
@@ -51,12 +52,13 @@ namespace EjercicioAPIRest.Services.UsuariosServices
             return new OkObjectResult("Se borro el usuario");
         }
 
-        public async Task<ActionResult<IEnumerable<Usuario>>> Get()
+        public async Task<ActionResult<IEnumerable<Usuario>>> GetAll()
         {
             return await _context.Usuarios.ToListAsync();
         }
 
-        public async Task<ActionResult<Usuario>> GetUser(int id)
+      
+        public async Task<ActionResult<Usuario>> Get(int id)
         {
             var userId = await _context.Usuarios.FindAsync(id);
             if (userId == null) { return new NotFoundObjectResult("No se encontro el usuario"); }
@@ -64,7 +66,7 @@ namespace EjercicioAPIRest.Services.UsuariosServices
             return new OkObjectResult(userId);
         }
 
-        public async Task<IActionResult> UpdateUser(int id, Usuario user)
+        public async Task<IActionResult> Update(int id, Usuario user)
         {
             var userFound = await _context.Usuarios.FindAsync(id);
             if (userFound == null) { return new NotFoundObjectResult("No se encontro el usuario"); }

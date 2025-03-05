@@ -12,6 +12,9 @@ namespace EjercicioAPIRest.DB
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Producto> Productos { get; set; }
+        public DbSet<Proveedor> Proveedor { get; set; }
         public DbSet<RefreshTokens> RefreshToken { get; set; }
     }
 }

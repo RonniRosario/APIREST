@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EjercicioAPIRest.Controllers
+namespace EjercicioAPIRest.Controllers.Auth
 {
     [Route("api/[controller]")]
     [AllowAnonymous]
@@ -19,11 +19,11 @@ namespace EjercicioAPIRest.Controllers
         }
 
         [HttpPost("registrar")]
-        public  Task<ActionResult> CreateUser(Usuario user)
+        public Task<ActionResult> CreateUser(Usuario user)
             => _authService.CreateUser(user);
 
         [HttpPost("login")]
-        public Task<ActionResult> Login (LoginDTO user)
+        public Task<ActionResult> Login(LoginDTO user)
             => _authService.Login(user);
 
         [HttpPost("refresh")]

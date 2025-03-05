@@ -3,6 +3,9 @@ using EjercicioAPIRest.DB;
 using EjercicioAPIRest.JWT;
 using EjercicioAPIRest.Models;
 using EjercicioAPIRest.Services.AuthServices;
+using EjercicioAPIRest.Services.CRUDService;
+using EjercicioAPIRest.Services.CRUDServices;
+using EjercicioAPIRest.Services.ProductQueries;
 using EjercicioAPIRest.Services.UsuariosServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -24,7 +27,14 @@ namespace EjercicioAPIRest
             {
                 op.UseSqlServer(builder.Configuration.GetConnectionString("EjercicioAPI"));
             });
-            builder.Services.AddScoped<IUsuarioServices, UsuarioServices>();
+            builder.Services.AddScoped<ICrudServices<Usuario>, UsuariosServices>();
+            builder.Services.AddScoped<ICrudServices<Categoria>, CategoriasServices>();
+            builder.Services.AddScoped<ICrudServices<Producto>, ProductosServices>();
+            builder.Services.AddScoped<IProductsInfo<Producto>, ProductosServices>();
+            builder.Services.AddScoped<ICrudServices<Proveedor>, ProveedorServices>();
+
+
+
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<RefreshTokenServices>();
             builder.Services.AddSingleton<Utilities>();

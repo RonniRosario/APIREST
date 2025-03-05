@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "EjercicioAPIRest.Controllers.AuthController",
+    "ContainingType": "EjercicioAPIRest.Controllers.Auth.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -16,7 +16,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EjercicioAPIRest.Controllers.AuthController",
+    "ContainingType": "EjercicioAPIRest.Controllers.Auth.AuthController",
     "Method": "RefreshToken",
     "RelativePath": "api/Auth/refresh",
     "HttpMethod": "POST",
@@ -32,7 +32,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EjercicioAPIRest.Controllers.AuthController",
+    "ContainingType": "EjercicioAPIRest.Controllers.Auth.AuthController",
     "Method": "CreateUser",
     "RelativePath": "api/Auth/registrar",
     "HttpMethod": "POST",
@@ -48,7 +48,384 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EjercicioAPIRest.Controllers.UsuariosController",
+    "ContainingType": "EjercicioAPIRest.Controllers.Categorias.CategoriasController",
+    "Method": "CreateCategoria",
+    "RelativePath": "api/Categorias/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "EjercicioAPIRest.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Categorias.CategoriasController",
+    "Method": "UpdateCategoria",
+    "RelativePath": "api/Categorias/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoria",
+        "Type": "EjercicioAPIRest.Models.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Categorias.CategoriasController",
+    "Method": "DeleteCategoria",
+    "RelativePath": "api/Categorias/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Categorias.CategoriasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Categorias/Obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EjercicioAPIRest.Models.Categoria, EjercicioAPIRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Categorias.CategoriasController",
+    "Method": "GetCategoria",
+    "RelativePath": "api/Categorias/ObtenerId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EjercicioAPIRest.Models.Categoria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "CategoryProducts",
+    "RelativePath": "api/Productos/CategoriaProducto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EjercicioAPIRest.Models.Producto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "ProductsQuantity",
+    "RelativePath": "api/Productos/ContarProductos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EjercicioAPIRest.Models.Producto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Productos/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "EjercicioAPIRest.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Productos/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "producto",
+        "Type": "EjercicioAPIRest.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Productos/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Productos/Obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EjercicioAPIRest.Models.Producto, EjercicioAPIRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "GetProducto",
+    "RelativePath": "api/Productos/ObtenerId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EjercicioAPIRest.Models.Producto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "ProductStats",
+    "RelativePath": "api/Productos/ProductoStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EjercicioAPIRest.Models.Producto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Productos.ProductosController",
+    "Method": "ProviderProducts",
+    "RelativePath": "api/Productos/ProveedorProducto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EjercicioAPIRest.Models.Producto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Proveedores.ProveedorController",
+    "Method": "CreateProvider",
+    "RelativePath": "api/Proveedor/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proveedor",
+        "Type": "EjercicioAPIRest.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Proveedores.ProveedorController",
+    "Method": "UpdateProvider",
+    "RelativePath": "api/Proveedor/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proveedor",
+        "Type": "EjercicioAPIRest.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Proveedores.ProveedorController",
+    "Method": "DeleteProvider",
+    "RelativePath": "api/Proveedor/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Proveedores.ProveedorController",
+    "Method": "GetAll",
+    "RelativePath": "api/Proveedor/Obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EjercicioAPIRest.Models.Proveedor, EjercicioAPIRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Proveedores.ProveedorController",
+    "Method": "GetProveedor",
+    "RelativePath": "api/Proveedor/ObtenerId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EjercicioAPIRest.Models.Proveedor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioAPIRest.Controllers.Usuarios.UsuariosController",
     "Method": "CreateUser",
     "RelativePath": "api/Usuarios/Crear",
     "HttpMethod": "POST",
@@ -64,7 +441,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EjercicioAPIRest.Controllers.UsuariosController",
+    "ContainingType": "EjercicioAPIRest.Controllers.Usuarios.UsuariosController",
     "Method": "UpdateUser",
     "RelativePath": "api/Usuarios/Editar/{id}",
     "HttpMethod": "PUT",
@@ -85,7 +462,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EjercicioAPIRest.Controllers.UsuariosController",
+    "ContainingType": "EjercicioAPIRest.Controllers.Usuarios.UsuariosController",
     "Method": "DeleteUser",
     "RelativePath": "api/Usuarios/Eliminar/{id}",
     "HttpMethod": "DELETE",
@@ -101,7 +478,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EjercicioAPIRest.Controllers.UsuariosController",
+    "ContainingType": "EjercicioAPIRest.Controllers.Usuarios.UsuariosController",
     "Method": "Get",
     "RelativePath": "api/Usuarios/Obtener",
     "HttpMethod": "GET",
@@ -121,7 +498,7 @@
     ]
   },
   {
-    "ContainingType": "EjercicioAPIRest.Controllers.UsuariosController",
+    "ContainingType": "EjercicioAPIRest.Controllers.Usuarios.UsuariosController",
     "Method": "GetUser",
     "RelativePath": "api/Usuarios/ObtenerId/{id}",
     "HttpMethod": "GET",

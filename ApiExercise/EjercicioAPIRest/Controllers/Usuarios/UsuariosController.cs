@@ -5,16 +5,16 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace EjercicioAPIRest.Controllers
+namespace EjercicioAPIRest.Controllers.Usuarios
 {
     [Route("api/[controller]")]
     [Authorize]
     [ApiController]
     public class UsuariosController : ControllerBase
     {
-        private readonly IUsuarioServices _services;
-        
-        public UsuariosController(IUsuarioServices services)
+        private readonly ICrudServices<Usuario> _services;
+
+        public UsuariosController(ICrudServices<Usuario> services)
         {
             _services = services;
         }
@@ -23,36 +23,36 @@ namespace EjercicioAPIRest.Controllers
         [HttpGet]
         [Route("Obtener")]
         public Task<ActionResult<IEnumerable<Usuario>>> Get()
-            => _services.Get();
+            => _services.GetAll();
 
         [HttpGet]
         [Route("ObtenerId/{id}")]
-        public  Task<ActionResult<Usuario>> GetUser(int id)
-            => _services.GetUser(id);
-        
+        public Task<ActionResult<Usuario>> GetUser(int id)
+            => _services.Get(id);
+
 
         [HttpPost]
         [Route("Crear")]
-        
+
 
         public Task<ActionResult> CreateUser(Usuario user)
-            => _services.CreateUser(user);
-        
+            => _services.Create(user);
+
 
         [HttpPut]
         [Route("Editar/{id}")]
-        
-        public Task <IActionResult> UpdateUser(int id, Usuario user)
-            => _services.UpdateUser(id, user);
+
+        public Task<IActionResult> UpdateUser(int id, Usuario user)
+            => _services.Update(id, user);
 
 
         [HttpDelete]
         [Route("Eliminar/{id}")]
-         
+
 
         public Task<IActionResult> DeleteUser(int id)
-            => _services.DeleteUser(id);
-        
+            => _services.Delete(id);
+
     }
 }
 
