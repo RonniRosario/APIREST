@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mo6Km4XN9Io=",
+  "dgSpecHash": "Whu+A1UTIeA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ronni\\Source\\Repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj",
+  "projectFilePath": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ronni\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ronni\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

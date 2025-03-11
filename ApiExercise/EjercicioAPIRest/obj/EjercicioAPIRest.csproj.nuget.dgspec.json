@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ronni\\Source\\Repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj": {}
+    "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ronni\\Source\\Repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj": {
+    "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ronni\\Source\\Repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj",
+        "projectUniqueName": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj",
         "projectName": "EjercicioAPIRest",
-        "projectPath": "C:\\Users\\ronni\\Source\\Repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj",
+        "projectPath": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\EjercicioAPIRest.csproj",
         "packagesPath": "C:\\Users\\ronni\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ronni\\Source\\Repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\obj\\",
         "projectStyle": "PackageReference",

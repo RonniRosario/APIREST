@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\controllers\\productos\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|solutionrelative:ejercicioapirest\\controllers\\productos\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\services\\crudservice\\usuariosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|solutionrelative:ejercicioapirest\\services\\crudservice\\usuariosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\services\\crudservice\\productosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|solutionrelative:ejercicioapirest\\services\\crudservice\\productosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\services\\loguser\\iloguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|solutionrelative:ejercicioapirest\\services\\loguser\\iloguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\services\\productqueries\\iproductsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|solutionrelative:ejercicioapirest\\services\\productqueries\\iproductsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\controllers\\usuarios\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|solutionrelative:ejercicioapirest\\controllers\\usuarios\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|solutionrelative:ejercicioapirest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|solutionrelative:ejercicioapirest\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D827F16D-173F-4EB8-8BDA-09DAD9D62C9E}|EjercicioAPIRest\\EjercicioAPIRest.csproj|c:\\users\\ronni\\source\\repos\\apirest\\apiexercise\\ejercicioapirest\\services\\crudservice\\icrudservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 313,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,67 +62,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "EjercicioAPIRest\\Services\\AuthServices\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "EjercicioAPIRest\\Services\\AuthServices\\AuthService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:24:45.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosServices.cs",
+              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\CRUDService\\UsuariosServices.cs",
+              "RelativeDocumentMoniker": "EjercicioAPIRest\\Services\\CRUDService\\UsuariosServices.cs",
+              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\CRUDService\\UsuariosServices.cs*",
+              "RelativeToolTip": "EjercicioAPIRest\\Services\\CRUDService\\UsuariosServices.cs*",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwH8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:01:34.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILogUser.cs",
+              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\LogUser\\ILogUser.cs",
+              "RelativeDocumentMoniker": "EjercicioAPIRest\\Services\\LogUser\\ILogUser.cs",
+              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\LogUser\\ILogUser.cs",
+              "RelativeToolTip": "EjercicioAPIRest\\Services\\LogUser\\ILogUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:07:19.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICrudServices.cs",
+              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\CRUDService\\ICrudServices.cs",
+              "RelativeDocumentMoniker": "EjercicioAPIRest\\Services\\CRUDService\\ICrudServices.cs",
+              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\CRUDService\\ICrudServices.cs",
+              "RelativeToolTip": "EjercicioAPIRest\\Services\\CRUDService\\ICrudServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:01:49.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Controllers\\Usuarios\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "EjercicioAPIRest\\Controllers\\Usuarios\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Controllers\\Usuarios\\UsuariosController.cs",
+              "RelativeToolTip": "EjercicioAPIRest\\Controllers\\Usuarios\\UsuariosController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:59:56.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Program.cs",
               "RelativeDocumentMoniker": "EjercicioAPIRest\\Program.cs",
               "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Program.cs",
               "RelativeToolTip": "EjercicioAPIRest\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAB8AAABVAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwB8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T16:02:28.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICrudServices.cs",
-              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\CRUDService\\ICrudServices.cs",
-              "RelativeDocumentMoniker": "EjercicioAPIRest\\Services\\CRUDService\\ICrudServices.cs",
-              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\CRUDService\\ICrudServices.cs",
-              "RelativeToolTip": "EjercicioAPIRest\\Services\\CRUDService\\ICrudServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:27:02.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProductsInfo.cs",
-              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\ProductQueries\\IProductsInfo.cs",
-              "RelativeDocumentMoniker": "EjercicioAPIRest\\Services\\ProductQueries\\IProductsInfo.cs",
-              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\ProductQueries\\IProductsInfo.cs",
-              "RelativeToolTip": "EjercicioAPIRest\\Services\\ProductQueries\\IProductsInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:26:39.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductosServices.cs",
-              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\CRUDService\\ProductosServices.cs",
-              "RelativeDocumentMoniker": "EjercicioAPIRest\\Services\\CRUDService\\ProductosServices.cs",
-              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Services\\CRUDService\\ProductosServices.cs",
-              "RelativeToolTip": "EjercicioAPIRest\\Services\\CRUDService\\ProductosServices.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA9wH8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T18:39:48.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Controllers\\Productos\\ProductosController.cs",
-              "RelativeDocumentMoniker": "EjercicioAPIRest\\Controllers\\Productos\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\ronni\\source\\repos\\APIREST\\ApiExercise\\EjercicioAPIRest\\Controllers\\Productos\\ProductosController.cs",
-              "RelativeToolTip": "EjercicioAPIRest\\Controllers\\Productos\\ProductosController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwC0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:48:21.533Z",
               "EditorCaption": ""
             }
           ]

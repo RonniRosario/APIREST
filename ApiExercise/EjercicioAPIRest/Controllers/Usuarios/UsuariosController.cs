@@ -1,5 +1,6 @@
 ﻿using EjercicioAPIRest.AppValidations;
 using EjercicioAPIRest.Models;
+using EjercicioAPIRest.Services.LogUser;
 using EjercicioAPIRest.Services.UsuariosServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,10 +14,12 @@ namespace EjercicioAPIRest.Controllers.Usuarios
     public class UsuariosController : ControllerBase
     {
         private readonly ICrudServices<Usuario> _services;
+        private readonly ILogUser<Usuario> _logServices;
 
-        public UsuariosController(ICrudServices<Usuario> services)
+        public UsuariosController(ICrudServices<Usuario> services, ILogUser<Usuario> logServices)
         {
             _services = services;
+            _logServices = logServices;
         }
 
 
@@ -29,6 +32,11 @@ namespace EjercicioAPIRest.Controllers.Usuarios
         [Route("ObtenerId/{id}")]
         public Task<ActionResult<Usuario>> GetUser(int id)
             => _services.Get(id);
+
+        [HttpGet]
+        [Route("ObtenerLogs")]
+        public Task<ActionResult<Usuario>> ReadLog()=>
+            _logServices.ReadLog();
 
 
         [HttpPost]

@@ -524,6 +524,26 @@
     ]
   },
   {
+    "ContainingType": "EjercicioAPIRest.Controllers.Usuarios.UsuariosController",
+    "Method": "ReadLog",
+    "RelativePath": "api/Usuarios/ObtenerLogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EjercicioAPIRest.Models.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "EjercicioAPIRest.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

@@ -1,0 +1,31 @@
+{
+  "Id": 25,
+  "Nombre": "Luis abinader",
+  "Email": "la@gmail.com",
+  "password": "lac45875693",
+  "FechaNacimiento": "1974-03-10T18:12:16.825Z"
+}{
+  "Id": 26,
+  "Nombre": "ronni",
+  "Email": "user21@example.com",
+  "password": "stringstri585698",
+  "FechaNacimiento": "2025-03-10T18:21:26.994Z"
+}{
+  "Id": 27,
+  "Nombre": "Pedro",
+  "Email": "user21dasd@example.com",
+  "password": "stringstfdssari585698",
+  "FechaNacimiento": "2025-03-10T18:21:26.994Z"
+}{
+  "Id": 0,
+  "Nombre": "David Ortiz",
+  "Email": "bigpapi@gmail.com",
+  "password": "bostonmyteam154872",
+  "FechaNacimiento": "1984-03-10T18:28:38.784Z"
+}{
+  "Id": 0,
+  "Nombre": "Yamilka Almonte",
+  "Email": "yamilkaa@gmail.com",
+  "password": "ympomavid5874695",
+  "FechaNacimiento": "2002-03-10T18:28:38.784Z"
+}

@@ -5,6 +5,7 @@ using EjercicioAPIRest.Models;
 using EjercicioAPIRest.Services.AuthServices;
 using EjercicioAPIRest.Services.CRUDService;
 using EjercicioAPIRest.Services.CRUDServices;
+using EjercicioAPIRest.Services.LogUser;
 using EjercicioAPIRest.Services.ProductQueries;
 using EjercicioAPIRest.Services.UsuariosServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -28,6 +29,7 @@ namespace EjercicioAPIRest
                 op.UseSqlServer(builder.Configuration.GetConnectionString("EjercicioAPI"));
             });
             builder.Services.AddScoped<ICrudServices<Usuario>, UsuariosServices>();
+            builder.Services.AddScoped<ILogUser<Usuario>, UsuariosServices>();
             builder.Services.AddScoped<ICrudServices<Categoria>, CategoriasServices>();
             builder.Services.AddScoped<ICrudServices<Producto>, ProductosServices>();
             builder.Services.AddScoped<IProductsInfo<Producto>, ProductosServices>();
