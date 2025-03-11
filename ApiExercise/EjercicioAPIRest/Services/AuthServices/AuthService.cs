@@ -6,6 +6,8 @@ using EjercicioAPIRest.Models;
 using EjercicioAPIRest.Services.UsuariosServices;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
+using System.Text;
 
 namespace EjercicioAPIRest.Services.AuthServices
 {
@@ -14,6 +16,7 @@ namespace EjercicioAPIRest.Services.AuthServices
         private readonly EjercicioAPIRestContext _context;
         private readonly Utilities _utilities;
         private readonly RefreshTokenServices _refreshTokensServices;
+        private string filePath = @"C:\Users\ronni\source\repos\APIREST\ApiExercise\EjercicioAPIRest\Services\LogUser\UserLogs.txt";
         public AuthService(EjercicioAPIRestContext context, Utilities utilities, RefreshTokenServices refreshTokensServices)
         {
             _context = context;
@@ -42,6 +45,16 @@ namespace EjercicioAPIRest.Services.AuthServices
                 }
                 await _context.Usuarios.AddAsync(newUser);
                 await _context.SaveChangesAsync();
+                using (FileStream oFs = File.Open(filePath, FileMode.Append, FileAccess.Write))
+                {
+
+                    var options = new JsonSerializerOptions { WriteIndented = true };
+                    var userLogSerialized = JsonSerializer.Serialize(user, options);
+
+                    Byte[] logUserInfoBytes = new UTF8Encoding(true).GetBytes(userLogSerialized);
+
+                    await oFs.WriteAsync(logUserInfoBytes, 0, logUserInfoBytes.Length);
+                }
                 return new OkObjectResult("El usuario ha sido creado exitosamente");
             }
             catch (Exception ex)
